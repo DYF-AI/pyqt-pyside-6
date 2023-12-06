@@ -25,6 +25,8 @@ pyside6-uic calculator.ui -o ui_calculator.py
 ### 三种最基础控件
 - QPushButton
 
+
+### 创建git
 ```shell
 echo "# pyqt-pyside-6" >> README.md
   git init

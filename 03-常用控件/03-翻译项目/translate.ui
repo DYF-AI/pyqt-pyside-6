@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1270</width>
+    <height>711</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>翻译在线</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>输入语言</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>271</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>自动识别</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>汉语</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="styleSheet">
+        <string notr="true">.QComboBox{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QLineEdit{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QComboBox:hover{
+	background-color:rgb(170,255,255);
+}
+
+.QLineEdit:hover{
+	background-color:rgb(170,255,255);
+}</string>
+       </property>
+       <property name="text">
+        <string>英语</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>281</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QComboBox{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QLineEdit{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QComboBox:hover{
+	background-color:rgb(170,255,255);
+}
+
+.QLineEdit:hover{
+	background-color:rgb(170,255,255);
+}</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>261</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QComboBox{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QLineEdit{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QComboBox:hover{
+	background-color:rgb(170,255,255);
+}
+
+.QLineEdit:hover{
+	background-color:rgb(170,255,255);
+}</string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <property name="currentText">
+    <string>英语</string>
+   </property>
+   <property name="placeholderText">
+    <string>请输入输出语言</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>英语</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汉语</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>日语</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>50</y>
+     <width>261</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QComboBox{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QLineEdit{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QComboBox:hover{
+	background-color:rgb(170,255,255);
+}
+
+.QLineEdit:hover{
+	background-color:rgb(170,255,255);
+}</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>551</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>显示更多</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>281</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QComboBox{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QLineEdit{
+	border-radius:10%;
+	borden:1px solid black;
+}
+
+.QComboBox:hover{
+	background-color:rgb(170,255,255);
+}
+
+.QLineEdit:hover{
+	background-color:rgb(170,255,255);
+}</string>
+   </property>
+   <property name="text">
+    <string>翻译</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
